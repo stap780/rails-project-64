@@ -1,0 +1,14 @@
+= simple_form_for(post) do |form|
+  = render 'shared/errors', object: post
+
+  div
+    = form.input :title, label: "Title", input_html: { style: "display: block" }
+
+  div
+    = form.input :body, label: "Body", input_html: { style: "display: block" }
+
+  div
+    = form.input :category_id, label: "Category", input_html: { style: "display: block" }
+
+  div
+    = form.button :submit
