@@ -38,7 +38,7 @@ gem 'sentry-rails', '~> 5.17', '>= 5.17.3'
 gem 'sentry-ruby', '~> 5.17', '>= 5.17.3'
 gem 'simple_form', '~> 5.3'
 gem 'slim', '~> 5.2', '>= 5.2.1'
-gem 'slim_lint', '~> 0.27.0'
+gem 'slim_lint', '~> 0.32.2'
 gem 'slim-rails', '~> 3.6', '>= 3.6.3'
 gem 'stackprof', '~> 0.2.26'
 
