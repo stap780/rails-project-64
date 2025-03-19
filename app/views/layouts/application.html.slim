@@ -35,3 +35,9 @@ html
             { class: 'nav-link link-dark pe-0' }
     - flash.each do
       = render 'layouts/flash'
+
+    = yield
+
+    footer.container.d-flex.flex-wrap.justify-content-between.align-items-center.py-3.my-4.border-top
+      p.col-md-4.mb-0.text-body-secondary
+        = "© #{Time.zone.today.year} Rails Project 64"
